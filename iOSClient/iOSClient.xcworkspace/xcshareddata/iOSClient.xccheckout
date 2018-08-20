@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EE6E46C3-45D4-49C0-B9CB-2AD89CB167A1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2582999FF3CFC8A39C426559C19A50C2DD2C80E1</key>
+		<string>https://bitbucket.org/eugene_zozulya/remotecontrol.git</string>
+		<key>4BFE26BB1E1D3A4BBE8E938BA50F21BD187B38C6</key>
+		<string>https://github.com/EugeneZZI/ReMoote.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSClient/iOSClient.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2582999FF3CFC8A39C426559C19A50C2DD2C80E1</key>
+		<string>../../../remotecontrol</string>
+		<key>4BFE26BB1E1D3A4BBE8E938BA50F21BD187B38C6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EugeneZZI/ReMoote.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4BFE26BB1E1D3A4BBE8E938BA50F21BD187B38C6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4BFE26BB1E1D3A4BBE8E938BA50F21BD187B38C6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ReMoote</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2582999FF3CFC8A39C426559C19A50C2DD2C80E1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>remotecontrol</string>
+		</dict>
+	</array>
+</dict>
+</plist>

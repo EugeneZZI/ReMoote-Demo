@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1F4FE01A3DFC7A0005D4EE /* RCNetServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F4FDF1A3DFC7A0005D4EE /* RCNetServiceManager.m */; };
+		1A1F4FE21A3DFE7B0005D4EE /* RCNetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F4FE11A3DFE7B0005D4EE /* RCNetworkConstants.m */; };
+		1A1F50081A3E34590005D4EE /* RCScanPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F50071A3E34590005D4EE /* RCScanPort.m */; };
+		1A22C5EB1A5087CD00CA9B45 /* RCMenuBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A22C5EA1A5087CD00CA9B45 /* RCMenuBarController.m */; };
+		1A22C5EF1A508D8600CA9B45 /* StatusBarImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A22C5EE1A508D8600CA9B45 /* StatusBarImage.png */; };
+		1A22C5F31A50949C00CA9B45 /* RCStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A22C5F21A50949C00CA9B45 /* RCStatusItemView.m */; };
+		1A22C6071A50BC1F00CA9B45 /* RCAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A22C6051A50BC1F00CA9B45 /* RCAboutWindowController.m */; };
+		1A22C6081A50BC1F00CA9B45 /* RCAboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A22C6061A50BC1F00CA9B45 /* RCAboutWindowController.xib */; };
+		1A22C60C1A50BF4200CA9B45 /* RCAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A22C60B1A50BF4200CA9B45 /* RCAppInfo.m */; };
+		1A2F5ED01A4A0E8300A6C389 /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A2F5ECE1A4A0E8300A6C389 /* mongoose.c */; };
+		1A3D292D1A4E2F9F00A49FA7 /* RCKeysDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D292C1A4E2F9F00A49FA7 /* RCKeysDefinition.m */; };
+		1ACD215D1A391531005A1795 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD215C1A391531005A1795 /* NSDictionary+QueryString.m */; };
+		1ACD21611A3916AA005A1795 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD21601A3916AA005A1795 /* NSString+URLEncoding.m */; };
+		1ACD21641A39178E005A1795 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACD21631A39178E005A1795 /* NSDictionary+JSON.m */; };
+		1AD4D6071A37A70600EA2FDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4D6061A37A70600EA2FDB /* AppDelegate.m */; };
+		1AD4D6091A37A70600EA2FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4D6081A37A70600EA2FDB /* main.m */; };
+		1AD4D60B1A37A70600EA2FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D60A1A37A70600EA2FDB /* Images.xcassets */; };
+		1AD4D60E1A37A70600EA2FDB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D60C1A37A70600EA2FDB /* MainMenu.xib */; };
+		1AD4D61A1A37A70600EA2FDB /* MacServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4D6191A37A70600EA2FDB /* MacServerTests.m */; };
+		1AD4D62E1A37A73500EA2FDB /* RCAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4D6251A37A73500EA2FDB /* RCAppController.m */; };
+		1AD4D62F1A37A73500EA2FDB /* RCHTTPServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4D6271A37A73500EA2FDB /* RCHTTPServerManager.m */; };
+		1AD4D6311A37A73500EA2FDB /* RCMacInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4D62B1A37A73500EA2FDB /* RCMacInfo.m */; };
+		1AD4D6321A37A73500EA2FDB /* RCMacState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4D62D1A37A73500EA2FDB /* RCMacState.m */; };
+		1AD4D63F1A37B23D00EA2FDB /* RCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD4D63E1A37B23D00EA2FDB /* RCCommon.m */; };
+		1AFD678F1A600FE10087F9B8 /* RCStartupLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD678E1A600FE10087F9B8 /* RCStartupLaunch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD4D6141A37A70600EA2FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD4D5F81A37A70600EA2FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD4D5FF1A37A70600EA2FDB;
+			remoteInfo = MacServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A1F4FDE1A3DFC7A0005D4EE /* RCNetServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCNetServiceManager.h; path = Classes/RCNetServiceManager.h; sourceTree = "<group>"; };
+		1A1F4FDF1A3DFC7A0005D4EE /* RCNetServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCNetServiceManager.m; path = Classes/RCNetServiceManager.m; sourceTree = "<group>"; };
+		1A1F4FE11A3DFE7B0005D4EE /* RCNetworkConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCNetworkConstants.m; path = Classes/RCNetworkConstants.m; sourceTree = "<group>"; };
+		1A1F4FE31A3DFE940005D4EE /* RCNetworkConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCNetworkConstants.h; path = Classes/RCNetworkConstants.h; sourceTree = "<group>"; };
+		1A1F50061A3E34590005D4EE /* RCScanPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCScanPort.h; path = Classes/RCScanPort.h; sourceTree = "<group>"; };
+		1A1F50071A3E34590005D4EE /* RCScanPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCScanPort.m; path = Classes/RCScanPort.m; sourceTree = "<group>"; };
+		1A22C5E91A5087CD00CA9B45 /* RCMenuBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCMenuBarController.h; path = Classes/RCMenuBarController.h; sourceTree = "<group>"; };
+		1A22C5EA1A5087CD00CA9B45 /* RCMenuBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCMenuBarController.m; path = Classes/RCMenuBarController.m; sourceTree = "<group>"; };
+		1A22C5EC1A508B4D00CA9B45 /* MacServer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MacServer-Prefix.pch"; sourceTree = "<group>"; };
+		1A22C5EE1A508D8600CA9B45 /* StatusBarImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusBarImage.png; path = SourceFiles/StatusBarImage.png; sourceTree = "<group>"; };
+		1A22C5F11A50949C00CA9B45 /* RCStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCStatusItemView.h; path = Classes/RCStatusItemView.h; sourceTree = "<group>"; };
+		1A22C5F21A50949C00CA9B45 /* RCStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCStatusItemView.m; path = Classes/RCStatusItemView.m; sourceTree = "<group>"; };
+		1A22C6041A50BC1F00CA9B45 /* RCAboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCAboutWindowController.h; path = Classes/RCAboutWindowController.h; sourceTree = "<group>"; };
+		1A22C6051A50BC1F00CA9B45 /* RCAboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCAboutWindowController.m; path = Classes/RCAboutWindowController.m; sourceTree = "<group>"; };
+		1A22C6061A50BC1F00CA9B45 /* RCAboutWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RCAboutWindowController.xib; path = Classes/RCAboutWindowController.xib; sourceTree = "<group>"; };
+		1A22C60A1A50BF4200CA9B45 /* RCAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCAppInfo.h; path = Classes/RCAppInfo.h; sourceTree = "<group>"; };
+		1A22C60B1A50BF4200CA9B45 /* RCAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCAppInfo.m; path = Classes/RCAppInfo.m; sourceTree = "<group>"; };
+		1A2F5ECE1A4A0E8300A6C389 /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mongoose.c; path = Classes/mongoose.c; sourceTree = "<group>"; };
+		1A2F5ECF1A4A0E8300A6C389 /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mongoose.h; path = Classes/mongoose.h; sourceTree = "<group>"; };
+		1A3D292B1A4E2F9F00A49FA7 /* RCKeysDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCKeysDefinition.h; path = Classes/RCKeysDefinition.h; sourceTree = "<group>"; };
+		1A3D292C1A4E2F9F00A49FA7 /* RCKeysDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCKeysDefinition.m; path = Classes/RCKeysDefinition.m; sourceTree = "<group>"; };
+		1ACD215B1A391531005A1795 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+QueryString.h"; path = "Classes/NSDictionary+QueryString.h"; sourceTree = "<group>"; };
+		1ACD215C1A391531005A1795 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+QueryString.m"; path = "Classes/NSDictionary+QueryString.m"; sourceTree = "<group>"; };
+		1ACD215F1A3916AA005A1795 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "Classes/NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		1ACD21601A3916AA005A1795 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "Classes/NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		1ACD21621A39178E005A1795 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JSON.h"; path = "Classes/NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		1ACD21631A39178E005A1795 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JSON.m"; path = "Classes/NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		1AD4D6001A37A70600EA2FDB /* MacServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD4D6041A37A70600EA2FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD4D6051A37A70600EA2FDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AD4D6061A37A70600EA2FDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AD4D6081A37A70600EA2FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AD4D60A1A37A70600EA2FDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AD4D60D1A37A70600EA2FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1AD4D6131A37A70600EA2FDB /* MacServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD4D6181A37A70600EA2FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD4D6191A37A70600EA2FDB /* MacServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacServerTests.m; sourceTree = "<group>"; };
+		1AD4D6241A37A73500EA2FDB /* RCAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCAppController.h; path = Classes/RCAppController.h; sourceTree = "<group>"; };
+		1AD4D6251A37A73500EA2FDB /* RCAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCAppController.m; path = Classes/RCAppController.m; sourceTree = "<group>"; };
+		1AD4D6261A37A73500EA2FDB /* RCHTTPServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCHTTPServerManager.h; path = Classes/RCHTTPServerManager.h; sourceTree = "<group>"; };
+		1AD4D6271A37A73500EA2FDB /* RCHTTPServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCHTTPServerManager.m; path = Classes/RCHTTPServerManager.m; sourceTree = "<group>"; };
+		1AD4D62A1A37A73500EA2FDB /* RCMacInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCMacInfo.h; path = Classes/RCMacInfo.h; sourceTree = "<group>"; };
+		1AD4D62B1A37A73500EA2FDB /* RCMacInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCMacInfo.m; path = Classes/RCMacInfo.m; sourceTree = "<group>"; };
+		1AD4D62C1A37A73500EA2FDB /* RCMacState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCMacState.h; path = Classes/RCMacState.h; sourceTree = "<group>"; };
+		1AD4D62D1A37A73500EA2FDB /* RCMacState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCMacState.m; path = Classes/RCMacState.m; sourceTree = "<group>"; };
+		1AD4D63D1A37B23D00EA2FDB /* RCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCCommon.h; path = Classes/RCCommon.h; sourceTree = "<group>"; };
+		1AD4D63E1A37B23D00EA2FDB /* RCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCCommon.m; path = Classes/RCCommon.m; sourceTree = "<group>"; };
+		1AFD678D1A600FE10087F9B8 /* RCStartupLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCStartupLaunch.h; path = Classes/RCStartupLaunch.h; sourceTree = "<group>"; };
+		1AFD678E1A600FE10087F9B8 /* RCStartupLaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCStartupLaunch.m; path = Classes/RCStartupLaunch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD4D5FD1A37A70600EA2FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD4D6101A37A70600EA2FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A22C5ED1A508D4200CA9B45 /* SourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1A22C5EE1A508D8600CA9B45 /* StatusBarImage.png */,
+			);
+			name = SourceFiles;
+			path = MacServer;
+			sourceTree = "<group>";
+		};
+		1A22C5F01A50947400CA9B45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A22C5F11A50949C00CA9B45 /* RCStatusItemView.h */,
+				1A22C5F21A50949C00CA9B45 /* RCStatusItemView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1A22C5F91A50BAAA00CA9B45 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A22C6041A50BC1F00CA9B45 /* RCAboutWindowController.h */,
+				1A22C6051A50BC1F00CA9B45 /* RCAboutWindowController.m */,
+				1A22C6061A50BC1F00CA9B45 /* RCAboutWindowController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1ACD215E1A391535005A1795 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1ACD215B1A391531005A1795 /* NSDictionary+QueryString.h */,
+				1ACD215C1A391531005A1795 /* NSDictionary+QueryString.m */,
+				1ACD215F1A3916AA005A1795 /* NSString+URLEncoding.h */,
+				1ACD21601A3916AA005A1795 /* NSString+URLEncoding.m */,
+				1ACD21621A39178E005A1795 /* NSDictionary+JSON.h */,
+				1ACD21631A39178E005A1795 /* NSDictionary+JSON.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		1AD4D5F71A37A70600EA2FDB = {
+			isa = PBXGroup;
+			children = (
+				1AD4D6021A37A70600EA2FDB /* MacServer */,
+				1A22C5ED1A508D4200CA9B45 /* SourceFiles */,
+				1AD4D6161A37A70600EA2FDB /* MacServerTests */,
+				1AD4D6011A37A70600EA2FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD4D6011A37A70600EA2FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4D6001A37A70600EA2FDB /* MacServer.app */,
+				1AD4D6131A37A70600EA2FDB /* MacServerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD4D6021A37A70600EA2FDB /* MacServer */ = {
+			isa = PBXGroup;
+			children = (
+				1ACD215E1A391535005A1795 /* Categories */,
+				1AD4D63C1A37B22000EA2FDB /* Common */,
+				1AD4D6351A37A75A00EA2FDB /* Network */,
+				1AD4D6341A37A75300EA2FDB /* Controllers */,
+				1A22C5F91A50BAAA00CA9B45 /* ViewControllers */,
+				1A22C5F01A50947400CA9B45 /* Views */,
+				1AD4D6331A37A74B00EA2FDB /* Model */,
+				1AD4D6051A37A70600EA2FDB /* AppDelegate.h */,
+				1AD4D6061A37A70600EA2FDB /* AppDelegate.m */,
+				1AD4D60A1A37A70600EA2FDB /* Images.xcassets */,
+				1AD4D60C1A37A70600EA2FDB /* MainMenu.xib */,
+				1AD4D6361A37A7AA00EA2FDB /* ThirdPart */,
+				1AD4D6031A37A70600EA2FDB /* Supporting Files */,
+			);
+			path = MacServer;
+			sourceTree = "<group>";
+		};
+		1AD4D6031A37A70600EA2FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4D6041A37A70600EA2FDB /* Info.plist */,
+				1AD4D6081A37A70600EA2FDB /* main.m */,
+				1A22C5EC1A508B4D00CA9B45 /* MacServer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AD4D6161A37A70600EA2FDB /* MacServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4D6191A37A70600EA2FDB /* MacServerTests.m */,
+				1AD4D6171A37A70600EA2FDB /* Supporting Files */,
+			);
+			path = MacServerTests;
+			sourceTree = "<group>";
+		};
+		1AD4D6171A37A70600EA2FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4D6181A37A70600EA2FDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AD4D6331A37A74B00EA2FDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4D62A1A37A73500EA2FDB /* RCMacInfo.h */,
+				1AD4D62B1A37A73500EA2FDB /* RCMacInfo.m */,
+				1AD4D62C1A37A73500EA2FDB /* RCMacState.h */,
+				1AD4D62D1A37A73500EA2FDB /* RCMacState.m */,
+				1AFD678D1A600FE10087F9B8 /* RCStartupLaunch.h */,
+				1AFD678E1A600FE10087F9B8 /* RCStartupLaunch.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1AD4D6341A37A75300EA2FDB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AD4D6241A37A73500EA2FDB /* RCAppController.h */,
+				1AD4D6251A37A73500EA2FDB /* RCAppController.m */,
+				1A22C5E91A5087CD00CA9B45 /* RCMenuBarController.h */,
+				1A22C5EA1A5087CD00CA9B45 /* RCMenuBarController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1AD4D6351A37A75A00EA2FDB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F4FE31A3DFE940005D4EE /* RCNetworkConstants.h */,
+				1A1F4FE11A3DFE7B0005D4EE /* RCNetworkConstants.m */,
+				1AD4D6261A37A73500EA2FDB /* RCHTTPServerManager.h */,
+				1AD4D6271A37A73500EA2FDB /* RCHTTPServerManager.m */,
+				1A1F4FDE1A3DFC7A0005D4EE /* RCNetServiceManager.h */,
+				1A1F4FDF1A3DFC7A0005D4EE /* RCNetServiceManager.m */,
+				1A1F50061A3E34590005D4EE /* RCScanPort.h */,
+				1A1F50071A3E34590005D4EE /* RCScanPort.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		1AD4D6361A37A7AA00EA2FDB /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				1A2F5ECE1A4A0E8300A6C389 /* mongoose.c */,
+				1A2F5ECF1A4A0E8300A6C389 /* mongoose.h */,
+			);
+			name = ThirdPart;
+			sourceTree = "<group>";
+		};
+		1AD4D63C1A37B22000EA2FDB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1A3D292B1A4E2F9F00A49FA7 /* RCKeysDefinition.h */,
+				1A3D292C1A4E2F9F00A49FA7 /* RCKeysDefinition.m */,
+				1AD4D63D1A37B23D00EA2FDB /* RCCommon.h */,
+				1AD4D63E1A37B23D00EA2FDB /* RCCommon.m */,
+				1A22C60A1A50BF4200CA9B45 /* RCAppInfo.h */,
+				1A22C60B1A50BF4200CA9B45 /* RCAppInfo.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD4D5FF1A37A70600EA2FDB /* MacServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD4D61D1A37A70600EA2FDB /* Build configuration list for PBXNativeTarget "MacServer" */;
+			buildPhases = (
+				1A22C6091A50BF0800CA9B45 /* Setup Version */,
+				1AD4D5FC1A37A70600EA2FDB /* Sources */,
+				1AD4D5FD1A37A70600EA2FDB /* Frameworks */,
+				1AD4D5FE1A37A70600EA2FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacServer;
+			productName = MacServer;
+			productReference = 1AD4D6001A37A70600EA2FDB /* MacServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD4D6121A37A70600EA2FDB /* MacServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD4D6201A37A70600EA2FDB /* Build configuration list for PBXNativeTarget "MacServerTests" */;
+			buildPhases = (
+				1AD4D60F1A37A70600EA2FDB /* Sources */,
+				1AD4D6101A37A70600EA2FDB /* Frameworks */,
+				1AD4D6111A37A70600EA2FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD4D6151A37A70600EA2FDB /* PBXTargetDependency */,
+			);
+			name = MacServerTests;
+			productName = MacServerTests;
+			productReference = 1AD4D6131A37A70600EA2FDB /* MacServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD4D5F81A37A70600EA2FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eugene Zozulya";
+				TargetAttributes = {
+					1AD4D5FF1A37A70600EA2FDB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1AD4D6121A37A70600EA2FDB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1AD4D5FF1A37A70600EA2FDB;
+					};
+				};
+			};
+			buildConfigurationList = 1AD4D5FB1A37A70600EA2FDB /* Build configuration list for PBXProject "MacServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD4D5F71A37A70600EA2FDB;
+			productRefGroup = 1AD4D6011A37A70600EA2FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD4D5FF1A37A70600EA2FDB /* MacServer */,
+				1AD4D6121A37A70600EA2FDB /* MacServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD4D5FE1A37A70600EA2FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A22C6081A50BC1F00CA9B45 /* RCAboutWindowController.xib in Resources */,
+				1A22C5EF1A508D8600CA9B45 /* StatusBarImage.png in Resources */,
+				1AD4D60B1A37A70600EA2FDB /* Images.xcassets in Resources */,
+				1AD4D60E1A37A70600EA2FDB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD4D6111A37A70600EA2FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A22C6091A50BF0800CA9B45 /* Setup Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Version";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#branch=${1:-'master'}\n#infoPlist=\"${SRCROOT}/${INFOPLIST_FILE}\"\n#currentShortVersion=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$infoPlist\")\n#buildNumber=$(expr $(git rev-list $branch --count) - $(git rev-list HEAD..$branch --count))\n#replace=\"${currentShortVersion:4}\"\n#shortVersion=\"${currentShortVersion/$replace/$buildNumber}\"\n#echo \"Updating build number to $shortVersion using branch '$branch'.\"\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $shortVersion\" \"$infoPlist\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD4D5FC1A37A70600EA2FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACD21611A3916AA005A1795 /* NSString+URLEncoding.m in Sources */,
+				1A22C5F31A50949C00CA9B45 /* RCStatusItemView.m in Sources */,
+				1AD4D62E1A37A73500EA2FDB /* RCAppController.m in Sources */,
+				1A1F50081A3E34590005D4EE /* RCScanPort.m in Sources */,
+				1A22C5EB1A5087CD00CA9B45 /* RCMenuBarController.m in Sources */,
+				1AD4D6321A37A73500EA2FDB /* RCMacState.m in Sources */,
+				1A1F4FE21A3DFE7B0005D4EE /* RCNetworkConstants.m in Sources */,
+				1A3D292D1A4E2F9F00A49FA7 /* RCKeysDefinition.m in Sources */,
+				1ACD21641A39178E005A1795 /* NSDictionary+JSON.m in Sources */,
+				1AD4D6091A37A70600EA2FDB /* main.m in Sources */,
+				1AD4D6071A37A70600EA2FDB /* AppDelegate.m in Sources */,
+				1AD4D63F1A37B23D00EA2FDB /* RCCommon.m in Sources */,
+				1ACD215D1A391531005A1795 /* NSDictionary+QueryString.m in Sources */,
+				1A22C60C1A50BF4200CA9B45 /* RCAppInfo.m in Sources */,
+				1A1F4FE01A3DFC7A0005D4EE /* RCNetServiceManager.m in Sources */,
+				1A22C6071A50BC1F00CA9B45 /* RCAboutWindowController.m in Sources */,
+				1AD4D6311A37A73500EA2FDB /* RCMacInfo.m in Sources */,
+				1A2F5ED01A4A0E8300A6C389 /* mongoose.c in Sources */,
+				1AD4D62F1A37A73500EA2FDB /* RCHTTPServerManager.m in Sources */,
+				1AFD678F1A600FE10087F9B8 /* RCStartupLaunch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD4D60F1A37A70600EA2FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD4D61A1A37A70600EA2FDB /* MacServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD4D6151A37A70600EA2FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD4D5FF1A37A70600EA2FDB /* MacServer */;
+			targetProxy = 1AD4D6141A37A70600EA2FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AD4D60C1A37A70600EA2FDB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD4D60D1A37A70600EA2FDB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD4D61B1A37A70600EA2FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1AD4D61C1A37A70600EA2FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AD4D61E1A37A70600EA2FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MacServer/MacServer-Prefix.pch";
+				INFOPLIST_FILE = MacServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzi.remotecontrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AD4D61F1A37A70600EA2FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MacServer/MacServer-Prefix.pch";
+				INFOPLIST_FILE = MacServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzi.remotecontrol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AD4D6211A37A70600EA2FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZI.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacServer.app/Contents/MacOS/MacServer";
+			};
+			name = Debug;
+		};
+		1AD4D6221A37A70600EA2FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZI.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacServer.app/Contents/MacOS/MacServer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD4D5FB1A37A70600EA2FDB /* Build configuration list for PBXProject "MacServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD4D61B1A37A70600EA2FDB /* Debug */,
+				1AD4D61C1A37A70600EA2FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD4D61D1A37A70600EA2FDB /* Build configuration list for PBXNativeTarget "MacServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD4D61E1A37A70600EA2FDB /* Debug */,
+				1AD4D61F1A37A70600EA2FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD4D6201A37A70600EA2FDB /* Build configuration list for PBXNativeTarget "MacServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD4D6211A37A70600EA2FDB /* Debug */,
+				1AD4D6221A37A70600EA2FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD4D5F81A37A70600EA2FDB /* Project object */;
+}

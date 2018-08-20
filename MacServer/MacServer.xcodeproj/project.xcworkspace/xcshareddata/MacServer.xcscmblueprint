@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4BFE26BB1E1D3A4BBE8E938BA50F21BD187B38C6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2582999FF3CFC8A39C426559C19A50C2DD2C80E1" : 0,
+    "4BFE26BB1E1D3A4BBE8E938BA50F21BD187B38C6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "789D737A-0E92-4ED2-AAFE-31C5D821C7F4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2582999FF3CFC8A39C426559C19A50C2DD2C80E1" : "remotecontrol",
+    "4BFE26BB1E1D3A4BBE8E938BA50F21BD187B38C6" : "ReMoote"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MacServer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MacServer\/MacServer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/eugene_zozulya\/remotecontrol.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2582999FF3CFC8A39C426559C19A50C2DD2C80E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EugeneZZI\/ReMoote.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4BFE26BB1E1D3A4BBE8E938BA50F21BD187B38C6"
+    }
+  ]
+}

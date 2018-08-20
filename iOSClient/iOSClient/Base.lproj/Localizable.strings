@@ -1,0 +1,90 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// MFMailComposeViewController Alerts
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"MFMailComposeViewController.alert.title"                                                   = "Sorry";
+"MFMailComposeViewController.alert.errorcheck.message"                                      = "You can't send email";
+"MFMailComposeViewController.alert.errorsending.message"                                    = "Failed to send email";
+"MFMailComposeViewController.alert.button.ok"                                               = "OK";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// RCControlViewController
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"RCControlViewController.refreshButton.title"                                               = "Servers";
+"RCControlViewController.infoButton.title"                                                  = "Info";
+"RCControlViewController.alertView.serverError.message"                                     = "Server is unavailable.";
+"RCControlViewController.alertView.shutDown.message"                                        = "Do you really want to shut down the computer?";
+"RCControlViewController.alertView.sleep.message"                                           = "Do you really want to sleep the computer?";
+"RCControlViewController.alertView.cancelButton"                                            = "OK";
+"RCControlViewController.alertView.otherButton"                                             = "Cancel";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// RCMacInfoLabel
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"RCMacInfoLabel.available.YES"                                                              = "connected";
+"RCMacInfoLabel.available.NO"                                                               = "disconnected";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// RCActionMenuView
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"RCActionMenuView.turnOffButton.title"                                                      = "Turn Off";
+"RCActionMenuView.sleepButton.title"                                                        = "Sleep";
+"RCActionMenuView.cancelButton.title"                                                       = "Cancel";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// RCInfoViewController
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"RCInfoViewController.navigationBar.title"                                                  = "Info";
+"RCInfoViewController.backButton.title"                                                     = "Back";
+"RCInfoViewController.appVersion.text"                                                      = "Version %@";
+"RCInfoViewController.sendFeedbackButton.title"                                             = "Send feedback";
+"RCInfoViewController.infoLabel.text"                                                       = "Some info. Link to gitHub. Propose send feedback or propositions.";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// RCServersViewController
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"RCServersViewController.navigationBar.title"                                               = "Servers";
+"RCServersViewController.infoButton.title"                                                  = "Info";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// RCServerSetupInfoViewController
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"RCServerSetupInfoViewController.infoLabel.text"                                            = "Some information and link to download server";
+"RCServerSetupInfoViewController.shareLinkButton.text"                                      = "Share Link via Email";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// RCServerSelectInfoViewController
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"RCServerSelectInfoViewController.infoLabel.text"                                           = "Image with server selection and text";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// RCServerControlInfoViewController
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"RCServerControlInfoViewController.infoLabel.text"                                          = "Image with control and text";
+"RCServerControlInfoViewController.startButton.text"                                        = "Start";
